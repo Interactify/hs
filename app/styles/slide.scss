@@ -1,0 +1,30 @@
+.slide {
+  font-family: BrandonText-Black, Verdana, Geneva, sans-serif;
+  text-transform: uppercase;
+  .slide-image {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    .slide-header {
+      color: #ffffff;
+      font-size: 80px;
+      line-height: 75px;
+      max-width: 500px;
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+    }
+    .slide-logo {
+      width: 79px;
+      height: 79px;
+      background-image: url(../images/slidelogo.png);
+      position: absolute;
+      bottom: 25px;
+      right: 30px;
+    }
+  }
+  .slide-feature {
+    padding-top: 10px;
+  }
+}

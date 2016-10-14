@@ -1,0 +1,55 @@
+#workwall {
+  .widework {
+    .widework-image {
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+/* ----- DEFAULT CSS FOR FREEWALL ----- */
+.free-wall {
+  margin: 15px;
+}
+.brick img {
+  margin: 0;
+  display: block;
+  visibility: hidden;
+}
+.brick {
+	background-color: white;
+	float: left;
+	cursor: default;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.brick-small {
+  width: 330px;
+}
+
+.brick .cover {
+	overflow: hidden;
+	margin: 20px;
+}
+
+.brick .read-more {
+	position: absolute;
+	display: none;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 12px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.45);
+}
+
+.brick:hover .read-more {
+	display: block;
+	cursor: pointer;
+}
+
+.brick .desc {
+	display: none;
+}
